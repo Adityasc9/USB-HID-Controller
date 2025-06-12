@@ -1,0 +1,10 @@
+"./startup_ccs.obj"
+"./usb_dev_gamepad.obj"
+"./usb_gamepad_structs.obj"
+"./drivers/buttons.obj"
+"./drivers/rgb.obj"
+"./utils/uartstdio.obj"
+"../usb_dev_gamepad_ccs.cmd"
+-l"/Users/aditya/SW-TM4C-2.2.0.295/driverlib/ccs/Debug/driverlib.lib"
+-l"/Users/aditya/SW-TM4C-2.2.0.295/usblib/ccs/Debug/usblib.lib"
+-llibc.a

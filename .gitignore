@@ -1,0 +1,36 @@
+# Build artifacts
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.out
+
+# Backup/temporary files
+*~
+*.swp
+*.bak
+
+# IDE-specific (Code Composer Studio / Keil / Eclipse)
+.project
+.cproject
+.settings/
+.metadata/
+*.launch
+*.uvoptx
+*.uvprojx
+*.dep
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Compiled libraries or auto-generated TivaWare files
+driverlib/*.obj
+driverlib/*.lib
+driverlib/*.d
+driverlib/*.lst
