@@ -15,6 +15,7 @@
 # IDE-specific (Code Composer Studio / Keil / Eclipse)
 .project
 .cproject
+.ccsproject
 .settings/
 .metadata/
 *.launch
